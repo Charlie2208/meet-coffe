@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: black;
+    height: 99px;
+    color: #ffff;
+    padding: 20px 120px;
+    font-size: 25px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+header{
+    width: 100%;
+    height: 422px;
+    background-image: url("/assets/img/bg-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1{
+    text-align: right;
+    color: #ffff;
+    text-shadow: 0px 3px 6px #00000080;
+    padding-top: 40px;
+    padding-right: 50px;
+    font-size: 60px;
+}
+
+header h2 {
+    text-align: right;
+    color: #ffff;
+    text-shadow: 0px 3px 6px #00000080;
+    padding-right: 50px;
+    font: normal;
+}
+
+.we-work{
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.we-work h3 {
+    letter-spacing: 0.9px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.we-work p {
+    letter-spacing: 0.5px;
+    font: normal;
+    margin-bottom: 131px;
+}
+
+.proxima-charla{
+    width: 100%;
+    height: 501px;
+    background-color: #A4452C;
+    padding: 80px;
+    padding-top: 104px;
+    padding-left: 200px;
+    
+}
+
+.proxima-charla img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffff;
+}
+
+.proxima-charla img {
+    padding-left: 50px;
+    border-radius:  10px;
+}
+
+.texto {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.eventos-anteriores{
+    text-align: center;
+    margin-top: 143px;
+    margin-bottom: 162px;
+}
+
+.eventos-anteriores div{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.eventos-anteriores img {
+    width: 300px;
+    height: 184px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    width: 100%;
+    height: 284px;
+    padding-top: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 15px;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+
+
+
